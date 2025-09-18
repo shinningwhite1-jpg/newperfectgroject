@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Business Analysis & Growth Reports</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Business Analysis & Growth Reports</h1>
+  </header>
+
+  <section>
+    <h2>Current Inventory Stock</h2>
+    <div id="currentInventory"></div>
+  </section>
+
+  <section>
+    <h2>Fastest Selling Products</h2>
+    <canvas id="fastSellingChart"></canvas>
+  </section>
+
+  <section>
+    <h2>Inventory Turnover & Stock Alerts</h2>
+    <canvas id="turnoverChart"></canvas>
+  </section>
+  
+  <section>
+      <h2>Sales Trend</h2>
+      <canvas id="salesTrendChart"></canvas>
+  </section>
+
+  <section>
+    <h2>Demand Forecasting (Simple)</h2>
+    <p>This is a simplistic forecast, projecting a 20% increase in sales. For more accurate predictions, consider more advanced forecasting models.</p>
+    <canvas id="forecastChart"></canvas>
+  </section>
+
+  <section>
+    <h2>Customer Behavior & SKU Analysis</h2>
+    <div id="skuAnalysis"></div>
+  </section>
+
+  <script src="analysis.js"></script>
+</body>
+</html>
